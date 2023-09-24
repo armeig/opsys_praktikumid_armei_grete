@@ -1,4 +1,4 @@
-#Praktikum 1 aruanne
+# Praktikum 1 aruanne
 
 Esimeses opsys praksis laadisin alla VirtualBoxi, lõin uue virtuaalmasina paigaldasin sinna eestikeelse Windows 11 ja legaliseerisin ta. Aega kulus palju ~7h vist, väga võimalik, et palju rohkem. Siin on lahenduse tõestus.
 <img width="960" alt="image" src="https://github.com/armeig/praktikumid/assets/145908210/49d9524a-f680-4ca3-96f8-44206bf108df">
