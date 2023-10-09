@@ -15,6 +15,11 @@ _Häälestage OneDrive'i failitaastesuvandid lunavararünnaku korral._
 
 
 
+
+
+
 *Ülesande 4-4 võrdlevad pildid:
+
+
 <img width="960" alt="OS-praks4 4 1" src="https://github.com/armeig/praktikumid_armei_grete/assets/145908210/e83e5635-b99a-4c3a-9aca-2cf1c0e06b45">
 <img width="960" alt="OS-praks4 4 2" src="https://github.com/armeig/praktikumid_armei_grete/assets/145908210/750223e4-27f0-48e7-bcd5-019293723d4e">
