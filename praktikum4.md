@@ -1,5 +1,5 @@
 # Praktikum 4 aruanne
-Neljandas praksis tegelesin Windowsi seadete, turvalisusega seotud tööriistade, turvaseadete, mitmekasutajasüsteemide turvamise ninf Windows 11 muudatustega.
+Neljandas praksis tegelesin Windowsi seadete, turvalisusega seotud tööriistade, turvaseadete, mitmekasutajasüsteemide turvamise ning Windows 11 muudatustega.
 
 <img width="960" alt="OS-praks4 1" src="https://github.com/armeig/praktikumid_armei_grete/assets/145908210/61d03e93-23b1-4be9-9c44-e5a3ff277401">
 <img width="959" alt="OS-praks4 2" src="https://github.com/armeig/praktikumid_armei_grete/assets/145908210/0af70fd8-c669-4b8f-8be1-b9a1576392a5">
