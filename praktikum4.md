@@ -7,7 +7,7 @@ Neljandas praksis tegelesin Windowsi seadete, turvalisusega seotud tööriistade
 
 Ülesanne 4-4: Administraatorina on loetletud 24 õigust, millest 3 on enabled, aga SYSTEM-ina on loetletud 28 õigust, millest vaid 12 on disabled. Üks õigustest, mille jaoks ei piisa administraatori õigustest on nt. programmide debugimine.
 
-<img width="961" alt="OS-praks4 5" src="https://github.com/armeig/praktikumid_armei_grete/assets/145908210/27458f73-6dc1-431e-b2d1-e8c17e4e825d">
+<img width="961" alt="image" src="https://github.com/armeig/praktikumid_armei_grete/assets/145908210/e6227ace-47bf-4367-8ed7-62bc85229ba6">
 
 Ülesanne 4-6: Microsofti arvates peaksin Viiruse- ja ohutõrje alamseadistuses Lunavaratõrje häälestama OneDrive'i failitaastesuvandid, et end kaitsta lunavararünnaku korral.
 *Häälestage OneDrive'i failitaastesuvandid lunavararünnaku korral.*
