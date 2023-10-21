@@ -1,6 +1,5 @@
 # Praktikum 5 aruanne
 Selles praksis tutvusin failiõigustega Linuxis. Mõningad käsud, mida õppisin: umask, chown, setuid, setgid. Samuti sain natuke rohkem teada ACL-st ja sticky bit-st.
-
 ### Ülesanne 5-1
 a) Kataloogis /tmp/kaust oleva faili minufail.txt lugemiseks on kaustal vajalikud read ja execute õigused (chmod 500 /tmp/kaust) ning minufail.txt õigus peab olema read (chmod 400 /tmp/kaust/minufail.txt).
 b) Kataloogis /tmp/kaust oleva faili minufail.txt kustutamiseks on kaustal vajalikud write ja execute õigused (chmod 300 /tmp/kaust) ning minufail.txt õigus peab olema write (chmod 200 /tmp/kaust/minufail.txt).
