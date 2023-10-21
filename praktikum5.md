@@ -14,7 +14,7 @@ Tavakasutaja minimaalsed õigused uusfail.txt sisu kuvamiseks on kaustas read ja
 <img width="961" alt="image" src="https://github.com/armeig/praktikumid_armei_grete/assets/145908210/ac1fbffa-50cf-437e-a549-2bc2939e2b24">
 _Setuid_-õigust on vaja selleks, et kasutajale anda rohkem privileege. Kasutaja saab programmi käivitamiseks samad õigused, mis on faili omanikul.
 ### Ülesanne 5-6
-Jah, _setuid_ võib vähendada süsteemi turvalisust kui programm pole ettevaatlikult disainitud, sest _setuid_ võib anda volituseta kõrgemad õigused kasutajale.
+Jah, **setuid** võib vähendada süsteemi turvalisust kui programm pole ettevaatlikult disainitud, sest **setuid** võib anda volituseta kõrgemad õigused kasutajale.
 ### Ülesanne 5-7
 Yhiskaust-kataloogist saavad sticky bit-õigustega test1(ehk peeter)-kasutaja loodud faile kustutada root, test1 ja opetaja.
 ### Ülesanne 5-8
