@@ -20,9 +20,9 @@ Jah, **setuid** võib vähendada süsteemi turvalisust kui programm pole ettevaa
 Yhiskaust-kataloogist saavad sticky bit-õigustega test1(ehk peeter)-kasutaja loodud faile kustutada root, test1 ja opetaja.
 ### Ülesanne 5-8
 > test1@armei-U23:/home/opetaja/klass$ getfacl hinded.txt
-> # file: hinded.txt
-> # owner: opetaja
-> # group: opetaja
+> #file: hinded.txt
+> #owner: opetaja
+> #group: opetaja
 > user::rw-
 > group::---
 > group:direktor:rw-
