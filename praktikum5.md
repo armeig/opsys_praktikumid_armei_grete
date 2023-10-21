@@ -12,6 +12,7 @@ Tavakasutaja minimaalsed õigused uusfail.txt sisu kuvamiseks on kaustas read ja
 <img width="961" alt="image" src="https://github.com/armeig/praktikumid_armei_grete/assets/145908210/de3f3b2d-e256-4465-87d0-111a32fe91a5">
 ### Ülesanne 5-5
 <img width="961" alt="image" src="https://github.com/armeig/praktikumid_armei_grete/assets/145908210/ac1fbffa-50cf-437e-a549-2bc2939e2b24">
+
 **Setuid**-õigust on vaja selleks, et kasutajale anda rohkem privileege. Kasutaja saab programmi käivitamiseks samad õigused, mis on faili omanikul.
 ### Ülesanne 5-6
 Jah, **setuid** võib vähendada süsteemi turvalisust kui programm pole ettevaatlikult disainitud, sest **setuid** võib anda volituseta kõrgemad õigused kasutajale.
