@@ -8,4 +8,4 @@ Seitsmendas praktikumis õppisin,  kuidas lokaalseid ja võrgukettaid Windowsi j
    GPT-l on primaarse GPT päise ja partitsiooni varukoopiat, mis kaitseb kettal olevaid andmeid paremini.
    GPT kasutab tsüklilist kontrollsummat selleks, et kindlustada, et andmed ei ole muutunud ega kahjustunud edastamise või salvestamise ajal.
    GPT ühildub UEFI-ga, MBR ei ühildu.
-3) 
+3) https://kodu.ut.ee/~armei/hdd.png
