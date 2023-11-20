@@ -22,18 +22,24 @@ sha1sum /dev/urandom | sha1sum /dev/urandom : kõige rohkem kulub sy-le (56,9%)
 
 13. Windows:
     1. Milline protsess kõige rohkem salvestusseadmele kirjutab?
+    
        firefox.exe
     2. Millisesse faili eelmise küsimuse protsess kõige rohkem kirjutab?
+       
        C:\$LogFile (NTFS Volume Log)
     3. Milline protsess kõige rohkem salvestusseadmelt loeb?
+       
        updater.exe
     4. Millisest failist eelmise küsimuse protsess kõige rohkem loeb?
+       
        C:\Windows\System32\dcomp.dll
 
 14. Millise protsessi poolt tekitatud võrguliiklus on suurima mahuga? Vali antud protsessi poolt kasutatavatest ühendustest üks ning kirjuta välja järgnev: kohalik IP-aadress, kohalik port, ühenduse teise poole IP-aadress, port, latents ja antud ühenduse poolt kasutatav võrguliikluse kogumaht. (Ainult Windowsis) Lisa ka ekraanipilt aruande juurde näiteks pärast tabelit.
+    
     nextcloud.exe (10.0.2.15, 61659, 193.40.5.90, 443, 5ms, 666 B/sec)
     <img width="960" alt="image" src="https://github.com/armeig/opsys_praktikumid_armei_grete/assets/145908210/096efc89-ee34-4b6b-98c3-117d74c15a8c">
 
 15. Sõber kurdab, et tema arvuti on oluliselt aeglasemaks muutunud. Milliseid konkreetseid programme või käsureakäske kasutad põhjustaja tuvastamiseks. Mõlemal juhul kirjuta, mida konkreetselt jälgid (nt mis aken, veerud, numbrid jne).
+
     Windowsis:
     Ma avaksin Task Manageri Processes lehekülje ja vajutades CPU peale näen, millised protsessid kõige rohkem CPU aega kulutavad ja kui palju ning samuti vajutaksin Memory peale, et näha neidsamu parameetreid seal. Lisaks jälgiksin Status veergu, kas seal midagi ebatavapärast on.
