@@ -6,9 +6,8 @@ Milline on kõige esimesena käivitatud protsess? (lisalugemine: init vs systemd
 Milliste kasutajate protsesse arvutis käib? (arvesta ka süsteemiprotsesse, mitte ainult sisse logitud kasutajaid) | avahi, colord, grete, kernoops, messagebus, root, rtkit, syslog, systemd-oom, systemd-resolve, systemd-timesync, USER | ps -eo user &#124; sort -u | ARMEI-W11\Grete, Font Driver Host\UMFD-0, Font Driver Host\UMFD-2, NT AUTHORITY\LOCAL SERVICE, NT AUTHORITY\NETWORK SERVICE, NT AUTHORITY\SYSTEM, Window Manager\DWM-2 | Process Explorere -> User Name
 Kui kaua on arvuti järjest töötanud (up time)? (Alternatiivselt võib vastata ka, millal (kuupäev ja kellaaeg) arvuti viimati käima pandi.) | 48min | uptime | 1h 2min 28s | Task Manager -> Performance -> Up time
 Milline protsess käivitati kõige hiljem (viimasena)? (Mitte võtta arvesse programmi, millega seda infot otsida.) | [kworker/u4:2] | ps axo pid,cmd,comm,etime | svchost.exe | Task Manager -> Performance -> Start Time
-
-Milline on kõige rohkem protsessoriaega võttev protsess? |
-Milline on kõige rohkem virtuaalmälu (aadressiruumi, commit, Virtual Size) võttev protsess? |
+Milline on kõige rohkem protsessoriaega võttev protsess? | gnome-shell | top | Microsoft Windows Malicious Software Removal Tool | Task Manager -> Processes -> CPU
+Milline on kõige rohkem virtuaalmälu (aadressiruumi, commit, Virtual Size) võttev protsess? | | | msedge.exe | Process Explorer -> Virtual Size
 Milline on kõige rohkem füüsilist mälu (working set) võttev protsess? |
 Kui palju füüsilisest mälust (Physical Memory) on vaba? |
 Kui palju on põhikettal (C:, /) vaba ruumi mahult (GB) ja protsentuaalselt? |
