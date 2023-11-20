@@ -1,9 +1,9 @@
 # Praktikum 9 aruanne
-Küsimus | Linux | Windows | Linuxis kasutatud käsklus | Windowsis kasutatud tööriist
+Küsimus | Linux | Linuxis kasutatud käsklus | Windows | Windowsis kasutatud tööriist
 --- | --- | --- | --- | ---
-Mitu protsessi kokku arvutis käib? | 216 | 143 | ps -aux &#124; wc -l | Task Manager -> Jõudlus
-Milline on kõige esimesena käivitatud protsess? (lisalugemine: init vs systemd) |
-Milliste kasutajate protsesse arvutis käib? (arvesta ka süsteemiprotsesse, mitte ainult sisse logitud kasutajaid) |
+Mitu protsessi kokku arvutis käib? | 216 | ps -aux &#124; wc -l | 143 | Task Manager -> Jõudlus
+Milline on kõige esimesena käivitatud protsess? (lisalugemine: init vs systemd) | /sbin/init splash | ps axo pid,cmd,comm,etime | Registry | Process Explorer -> Start Time
+Milliste kasutajate protsesse arvutis käib? (arvesta ka süsteemiprotsesse, mitte ainult sisse logitud kasutajaid) | root, systemd+, avahi, message+, syslog, kernoops, grete, rtkit, colord | ps -eo user &#124; sort -u |
 Kui kaua on arvuti järjest töötanud (up time)? (Alternatiivselt võib vastata ka, millal (kuupäev ja kellaaeg) arvuti viimati käima pandi.) |
 Milline protsess käivitati kõige hiljem (viimasena)? (Mitte võtta arvesse programmi, millega seda infot otsida.) |
 Milline on kõige rohkem protsessoriaega võttev protsess? |
