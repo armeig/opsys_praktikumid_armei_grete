@@ -11,12 +11,12 @@ Milline on kõige rohkem virtuaalmälu (aadressiruumi, commit, Virtual Size) võ
 Milline on kõige rohkem füüsilist mälu (working set) võttev protsess? | /usr/bin/gnome-shell | htop -> F6 -> M_RESIDENT | explorer.exe | Process Explorer -> Working Set
 Kui palju füüsilisest mälust (Physical Memory) on vaba? | 298Mi | free -h | 1.4GB | Task Manager -> Performance -> Memory -> Available
 Kui palju on põhikettal (C:, /) vaba ruumi mahult (GB) ja protsentuaalselt? | 7,7GB 37% | df -h -> Avail ja 100%-Use% | 31.56GB 50% | Disk Management -> Free Space/%Free
-Milline on kõige suurem kõvakettal olev fail ja kõige suurem alamkaust? |  | | | 
-Võrrelge terminali käskude: (sha1sum /dev/zero &#124; sha1sum /dev/zero) ja (sha1sum /dev/urandom &#124; sha1sum /dev/urandom) protsessori kasutust. Võrdluseks avage teine terminaliaken ja top samaaegseks käivitamiseks. Uurige, millisele CPU alamtegevusele us, sy, id, wa, st jne kulub enim protsessori aega ja mitu protsenti kulub kummagi käsu korral. (Ainult Linuxis) Lisa ka ekraanipilt aruande juurde näiteks pärast tabelit. | | | | 
-Vasta järgnevatele alamküsimustele: (Ainult Windowsis) | | | | 
-Milline protsess kõige rohkem salvestusseadmele kirjutab? | | | | 
-Millisesse faili eelmise küsimuse protsess kõige rohkem kirjutab? | | | | 
-Milline protsess kõige rohkem salvestusseadmelt loeb? | | | | 
-Millisest failist eelmise küsimuse protsess kõige rohkem loeb? | | | | 
-Millise protsessi poolt tekitatud võrguliiklus on suurima mahuga? Vali antud protsessi poolt kasutatavatest ühendustest üks ning kirjuta välja järgnev: kohalik IP-aadress, kohalik port, ühenduse teise poole IP-aadress, port, latents ja antud ühenduse poolt kasutatav võrguliikluse kogumaht. (Ainult Windowsis) Lisa ka ekraanipilt aruande juurde näiteks pärast tabelit. | | | | 
-Sõber kurdab, et tema arvuti on oluliselt aeglasemaks muutunud. Milliseid konkreetseid programme või käsureakäske kasutad põhjustaja tuvastamiseks. Mõlemal juhul kirjuta, mida konkreetselt jälgid (nt mis aken, veerud, numbrid jne). (Vali Linuxis või Windowsis) | | | | 
+Milline on kõige suurem kõvakettal olev fail ja kõige suurem alamkaust? | /usr ja /var/lib/snapd/snaps/gnome-42-2204_141.snap | sudo du -a / &#124; sort -n -r &#124; head -n 2 ja sudo find / -type f -exec du -h {} + &#124; sort -rh &#124; head -n | Windows,  | 
+12) Võrrelge terminali käskude: (sha1sum /dev/zero &#124; sha1sum /dev/zero) ja (sha1sum /dev/urandom &#124; sha1sum /dev/urandom) protsessori kasutust. Võrdluseks avage teine terminaliaken ja top samaaegseks käivitamiseks. Uurige, millisele CPU alamtegevusele us, sy, id, wa, st jne kulub enim protsessori aega ja mitu protsenti kulub kummagi käsu korral. (Ainult Linuxis) Lisa ka ekraanipilt aruande juurde näiteks pärast tabelit. 
+13) Windows
+    1. Milline protsess kõige rohkem salvestusseadmele kirjutab?
+    2. Millisesse faili eelmise küsimuse protsess kõige rohkem kirjutab?
+    3. Milline protsess kõige rohkem salvestusseadmelt loeb? 
+    4. Millisest failist eelmise küsimuse protsess kõige rohkem loeb?
+14) Millise protsessi poolt tekitatud võrguliiklus on suurima mahuga? Vali antud protsessi poolt kasutatavatest ühendustest üks ning kirjuta välja järgnev: kohalik IP-aadress, kohalik port, ühenduse teise poole IP-aadress, port, latents ja antud ühenduse poolt kasutatav võrguliikluse kogumaht. (Ainult Windowsis) Lisa ka ekraanipilt aruande juurde näiteks pärast tabelit.
+15) Sõber kurdab, et tema arvuti on oluliselt aeglasemaks muutunud. Milliseid konkreetseid programme või käsureakäske kasutad põhjustaja tuvastamiseks. Mõlemal juhul kirjuta, mida konkreetselt jälgid (nt mis aken, veerud, numbrid jne). (Vali Linuxis või Windowsis)
