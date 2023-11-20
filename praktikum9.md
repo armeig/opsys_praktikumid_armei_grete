@@ -1,7 +1,7 @@
 # Praktikum 9 aruanne
 Küsimus | Linux | Windows | Linuxis kasutatud käsklus | Windowsis kasutatud tööriist
 --- | --- | --- | --- | ---
-Mitu protsessi kokku arvutis käib? | 216 | 143 | ps -aux | wc -l | Task Manager -> Jõudlus
+Mitu protsessi kokku arvutis käib? | 216 | 143 | "ps -aux | wc -l" | Task Manager -> Jõudlus
 Milline on kõige esimesena käivitatud protsess? (lisalugemine: init vs systemd) |
 Milliste kasutajate protsesse arvutis käib? (arvesta ka süsteemiprotsesse, mitte ainult sisse logitud kasutajaid) |
 Kui kaua on arvuti järjest töötanud (up time)? (Alternatiivselt võib vastata ka, millal (kuupäev ja kellaaeg) arvuti viimati käima pandi.) |
