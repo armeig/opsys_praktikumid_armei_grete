@@ -1,7 +1,7 @@
 # Praktikum 9 aruanne
 Küsimus | Linux | Windows | Linuxis kasutatud käsklus | Windowsis kasutatud tööriist
 --- | --- | --- | --- | ---
-Mitu protsessi kokku arvutis käib? | 216 | 143 | ps -aux &#124 wc -l | Task Manager -> Jõudlus
+Mitu protsessi kokku arvutis käib? | 216 | 143 | ps -aux &#124; wc -l | Task Manager -> Jõudlus
 Milline on kõige esimesena käivitatud protsess? (lisalugemine: init vs systemd) |
 Milliste kasutajate protsesse arvutis käib? (arvesta ka süsteemiprotsesse, mitte ainult sisse logitud kasutajaid) |
 Kui kaua on arvuti järjest töötanud (up time)? (Alternatiivselt võib vastata ka, millal (kuupäev ja kellaaeg) arvuti viimati käima pandi.) |
@@ -12,7 +12,7 @@ Milline on kõige rohkem füüsilist mälu (working set) võttev protsess? |
 Kui palju füüsilisest mälust (Physical Memory) on vaba? |
 Kui palju on põhikettal (C:, /) vaba ruumi mahult (GB) ja protsentuaalselt? |
 Milline on kõige suurem kõvakettal olev fail ja kõige suurem alamkaust? |
-Võrrelge terminali käskude: (sha1sum /dev/zero | sha1sum /dev/zero) ja (sha1sum /dev/urandom | sha1sum /dev/urandom) protsessori kasutust. Võrdluseks avage teine terminaliaken ja top samaaegseks käivitamiseks. Uurige, millisele CPU alamtegevusele us, sy, id, wa, st jne kulub enim protsessori aega ja mitu protsenti kulub kummagi käsu korral. (Ainult Linuxis) Lisa ka ekraanipilt aruande juurde näiteks pärast tabelit. |
+Võrrelge terminali käskude: (sha1sum /dev/zero &#124; sha1sum /dev/zero) ja (sha1sum /dev/urandom &#124; sha1sum /dev/urandom) protsessori kasutust. Võrdluseks avage teine terminaliaken ja top samaaegseks käivitamiseks. Uurige, millisele CPU alamtegevusele us, sy, id, wa, st jne kulub enim protsessori aega ja mitu protsenti kulub kummagi käsu korral. (Ainult Linuxis) Lisa ka ekraanipilt aruande juurde näiteks pärast tabelit. |
 Vasta järgnevatele alamküsimustele: (Ainult Windowsis) |
 Milline protsess kõige rohkem salvestusseadmele kirjutab? |
 Millisesse faili eelmise küsimuse protsess kõige rohkem kirjutab? |
