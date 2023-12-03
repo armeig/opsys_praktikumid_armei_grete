@@ -1,4 +1,5 @@
 # Praktikum 11 aruanne
+Üheteistkümnendas praksis tutvusime DNS, HTTP ja SMTP protokollidega.
 
 11.1)
 
