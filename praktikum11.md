@@ -12,6 +12,8 @@
 
 <img width="480" alt="image" src="https://github.com/armeig/opsys_praktikumid_armei_grete/assets/145908210/7e25f1d7-2de3-42bf-a59e-653c35593cb9">
 
+Kasutab Vercelit.
+
 11.3.2)
 
 <img width="480" alt="image" src="https://github.com/armeig/opsys_praktikumid_armei_grete/assets/145908210/38934177-fbc4-42f3-8034-ca444d67aa3f">
