@@ -77,6 +77,8 @@ echo "$x"
 ##### ekraanivaated:
 <img width="961" alt="image" src="https://github.com/armeig/opsys_praktikumid_armei_grete/assets/145908210/da5e2cc5-5b8c-49c2-994b-9542da337eda">
 <img width="961" alt="image" src="https://github.com/armeig/opsys_praktikumid_armei_grete/assets/145908210/314e3692-f5d7-4d0f-97c4-e12249f2dfc9">
+<img width="961" alt="image" src="https://github.com/armeig/opsys_praktikumid_armei_grete/assets/145908210/926a2ce5-bf2b-4bd2-a49b-d785a59d32b7">
+
 
 
 
