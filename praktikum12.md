@@ -4,21 +4,21 @@
 
 ##### skript:
 
-#!/bin/sh
-
-echo "Sisesta oma nimi:"
-
-read nimi
-
-echo "Sisesta oma eriala:"
-
-read eriala
-
-echo "Sisesta oma matriklinumber:"
-
-read number
-
-echo "$nimi, $eriala ja $number"
+    #!/bin/sh
+    
+    echo "Sisesta oma nimi:"
+    
+    read nimi
+    
+    echo "Sisesta oma eriala:"
+    
+    read eriala
+    
+    echo "Sisesta oma matriklinumber:"
+    
+    read number
+    
+    echo "$nimi, $eriala ja $number"
 
 ##### ekraanivaade:
 
@@ -28,23 +28,23 @@ echo "$nimi, $eriala ja $number"
 
 ##### skript:
 
-#!bin/bash
-
-laiend1=$1
-
-laiend2=$2
-
-for i in $(ls); do
-
-    fail=$i
+    #!bin/bash
     
-    if [ ${i##*.} = $1 ]; then
+    laiend1=$1
     
-        mv $i ${fail/$1/$2}
+    laiend2=$2
+    
+    for i in $(ls); do
+    
+        fail=$i
         
-    fi
-    
-done
+        if [ ${i##*.} = $1 ]; then
+        
+            mv $i ${fail/$1/$2}
+            
+        fi
+        
+    done
 
 ##### ekraanivaade:
 
