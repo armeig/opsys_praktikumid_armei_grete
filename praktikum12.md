@@ -1,23 +1,17 @@
 # Praktikum 12 aruanne
+Kaheteistkümnendas praksis tegelesime skriptide loomisega Linuxis.
 
 ### Ülesanne 3:
 
 ##### skript:
 ```
 #!/bin/sh
-
 echo "Sisesta oma nimi:"
-
 read nimi
-
 echo "Sisesta oma eriala:"
-
 read eriala
-
 echo "Sisesta oma matriklinumber:"
-
 read number
-
 echo "$nimi, $eriala ja $number"
 ```
 ##### ekraanivaade:
@@ -29,21 +23,13 @@ echo "$nimi, $eriala ja $number"
 ##### skript:
 ```
 #!/bin/bash
-
 laiend1=$1
-
 laiend2=$2
-
 for i in $(ls); do
-
-    fail=$i
-    
-    if [ ${i##*.} = $1 ]; then
-    
-        mv $i ${fail/$1/$2}
-        
-    fi
-    
+    fail=$i   
+    if [ ${i##*.} = $1 ]; then   
+        mv $i ${fail/$1/$2}      
+    fi 
 done
 ```
 ##### ekraanivaade:
@@ -55,17 +41,11 @@ done
 ##### skript:
 ```
 #!/bin/bash
-
 nimi=$1
-
 IFS=$'\n'
-
 for rida in $(ps aux | grep "$nimi" | grep -v grep); do
-
     pid=$(echo $rida | tr -s ' ' | cut -d ' ' -f2)
-
     echo "$nimi - $pid"
-
 done
 ```
 ##### ekraanivaade:
