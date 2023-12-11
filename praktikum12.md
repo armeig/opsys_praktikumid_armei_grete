@@ -72,5 +72,33 @@ done
 
 <img width="961" alt="image" src="https://github.com/armeig/opsys_praktikumid_armei_grete/assets/145908210/670b75d6-191f-4c59-a461-ab5a52eda6f0">
 
+### Ülesanne 6
+
+##### skript:
+```
+#!/bin/bash
+astenda () {
+    if [ $2 -eq 0 ]; then
+        echo 1
+    elif [ $2 -ge 1 ]; then
+        a=$(($1 * $(astenda $1 $(($2 - 1)))))
+        echo $a
+    fi
+}
+
+x=$(astenda 9 5)
+echo "$x"
+```
+##### ekraanivaade:
+
+<img width="961" alt="image" src="https://github.com/armeig/opsys_praktikumid_armei_grete/assets/145908210/d35f1771-22b2-4c5a-b796-cc37185716a1">
+
+### Ülesanne 7
+##### ekraanivaated:
+<img width="961" alt="image" src="https://github.com/armeig/opsys_praktikumid_armei_grete/assets/145908210/da5e2cc5-5b8c-49c2-994b-9542da337eda">
+<img width="961" alt="image" src="https://github.com/armeig/opsys_praktikumid_armei_grete/assets/145908210/314e3692-f5d7-4d0f-97c4-e12249f2dfc9">
+
+
+
 
 
