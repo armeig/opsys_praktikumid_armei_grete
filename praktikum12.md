@@ -4,21 +4,21 @@
 
 ##### skript:
 ```
-    #!/bin/sh
-    
-    echo "Sisesta oma nimi:"
-    
-    read nimi
-    
-    echo "Sisesta oma eriala:"
-    
-    read eriala
-    
-    echo "Sisesta oma matriklinumber:"
-    
-    read number
-    
-    echo "$nimi, $eriala ja $number"
+#!/bin/sh
+
+echo "Sisesta oma nimi:"
+
+read nimi
+
+echo "Sisesta oma eriala:"
+
+read eriala
+
+echo "Sisesta oma matriklinumber:"
+
+read number
+
+echo "$nimi, $eriala ja $number"
 ```
 ##### ekraanivaade:
 
@@ -28,27 +28,49 @@
 
 ##### skript:
 ```
-    #!bin/bash
+#!/bin/bash
+
+laiend1=$1
+
+laiend2=$2
+
+for i in $(ls); do
+
+    fail=$i
     
-    laiend1=$1
+    if [ ${i##*.} = $1 ]; then
     
-    laiend2=$2
-    
-    for i in $(ls); do
-    
-        fail=$i
+        mv $i ${fail/$1/$2}
         
-        if [ ${i##*.} = $1 ]; then
-        
-            mv $i ${fail/$1/$2}
-            
-        fi
-        
-    done
+    fi
+    
+done
 ```
 ##### ekraanivaade:
 
 <img width="961" alt="image" src="https://github.com/armeig/opsys_praktikumid_armei_grete/assets/145908210/d8e8a007-f3ff-4479-8015-52f7cc51264f">
 
 ### Ülesanne 5:
+
+##### skript:
+```
+#!/bin/bash
+
+nimi=$1
+
+IFS=$'\n'
+
+for rida in $(ps aux | grep "$nimi" | grep -v grep); do
+
+    pid=$(echo $rida | tr -s ' ' | cut -d ' ' -f2)
+
+    echo "$nimi - $pid"
+
+done
+```
+##### ekraanivaade:
+
+<img width="961" alt="image" src="https://github.com/armeig/opsys_praktikumid_armei_grete/assets/145908210/670b75d6-191f-4c59-a461-ab5a52eda6f0">
+
+
 
