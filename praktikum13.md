@@ -179,9 +179,14 @@ $kuupäevjakellaaeg = Get-Date -Format "dd/MM/yyyy HH:mm"
 Valjasta 14 $kuupäevjakellaaeg
 ```
 select * käsku tuleks kasutada juhul kui soovid rohkem infot saada.
+
 Select-Object käsku tuleks kasutada kui soovid suurest osast infost paari kindlat infokillukest.
+
 Sort-Objekt käsk aitab sorteerida saadud vastus valitud parameetri põhjal.
+
 Format-Table väljastab vastuse tabeli kujul.
+
 Format-List väljastab vastuse listina.
+
 -AutoSize teeb veerud piisavalt laiad, et kogu info oleks näha.
 
