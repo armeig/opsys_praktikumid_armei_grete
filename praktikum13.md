@@ -4,7 +4,7 @@ Kolmeteistkümnendas praksis tegelesime skriptimisega Windowsi Powershell ISE-s.
 [tulemus.txt](https://github.com/armeig/opsys_praktikumid_armei_grete/files/13686918/tulemus.txt)
 
 skript:
-'''
+```
 
 function valjasta{
 	param ($nr, $param, $sisu)
@@ -68,5 +68,5 @@ Valjasta 13 "10 viimasena käivitatud protsessi" $käivitatud
 
 $kuupäevjakellaaeg = Get-Date -Format "dd/MM/yyyy HH:mm"
 Valjasta 14 $kuupäevjakellaaeg
-'''
+```
 
