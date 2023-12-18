@@ -9,3 +9,5 @@
 Ülesanne 3:
 ![image](https://github.com/armeig/opsys_praktikumid_armei_grete/assets/145908210/1b8c4454-56d0-46a0-b5aa-3f5b3cfb4d64)
 
+Ülesanne 4:
+<img width="960" alt="image" src="https://github.com/armeig/opsys_praktikumid_armei_grete/assets/145908210/2b3530d7-d4be-4d43-af3c-69ad8cfc9c74">
