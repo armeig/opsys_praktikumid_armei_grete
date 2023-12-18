@@ -7,10 +7,5 @@
 ![image](https://github.com/armeig/opsys_praktikumid_armei_grete/assets/145908210/ac1c1d4c-58e2-45ac-954b-98cb715ca2cd)
 
 Ülesanne 3:
-![image](https://github.com/armeig/opsys_praktikumid_armei_grete/assets/145908210/f562b1e5-094c-41ca-811c-d1a25d06a33c)
-
-
-
-
-
+![image](https://github.com/armeig/opsys_praktikumid_armei_grete/assets/145908210/1b8c4454-56d0-46a0-b5aa-3f5b3cfb4d64)
 
