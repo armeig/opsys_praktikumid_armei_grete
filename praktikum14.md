@@ -1,4 +1,5 @@
 # Praktikum 14 aruanne
+Neljateistkümnendas praksis tutvusime Microsoft Azure keskkonnaga, seadsime üles virtuaalmasina ja kasutasime WSL-i, et leida kadunud paroole.
 
 Ülesanne 1: 
 ![image](https://github.com/armeig/opsys_praktikumid_armei_grete/assets/145908210/c7b02ae7-a22b-4bb3-be43-7bd821559d14)
