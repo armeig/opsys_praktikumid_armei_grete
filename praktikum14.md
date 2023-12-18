@@ -15,3 +15,9 @@
 Ülesanne 5:
 <img width="960" alt="image" src="https://github.com/armeig/opsys_praktikumid_armei_grete/assets/145908210/0fcb87d6-1ac6-429f-a7b5-2414f4325388">
 
+Ülesanne 6:
+<img width="960" alt="image" src="https://github.com/armeig/opsys_praktikumid_armei_grete/assets/145908210/24dc423f-584d-4288-a3fa-e181db6ffbff">
+
+Kõigepealt oli mul vaja teha kindlaks, millised failid üldse sisaldavad infot ehk siis kasutasin käsku __ls -l | awk '$5 != 0'__ , sest see ütleb, et näita mulle faile, mille viies veerg ehk failisuuruse veerg ei võrduks nulliga. Seejärel vaatasin kõik antud väljundid ükshaaval kasutades käsku __cat__ läbi ning leidsin, et mõistlik oleks otsida käsuga __find . -type f -size +0 -exec grep -l 'parool' {} +__ , millised failid sisaldavad sõna parool ning lõpuks leidsin käsu __find . -type f -size +0 -exec grep -q 'parool' {} \; -exec grep -H 'parool' {} \;__ abil iga faili nime ja tema sisu. Mul polnud õrna aimu, kas ma oleks pidanud kasutama kuidagi seda ostechnix.secret faili, aga kuna see on krüpteeritud ja ma ei oska seda dekrüpteerida siis ma jätsin ta sinna paika. Kuigi praegune lahendus tunudb vale.
+
+
