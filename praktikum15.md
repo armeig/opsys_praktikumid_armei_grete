@@ -17,3 +17,6 @@
 <img width="960" alt="image" src="https://github.com/armeig/opsys_praktikumid_armei_grete/assets/145908210/4793aa74-3b5e-4805-bab1-4395944ca642">
 
 Ülesanne 4b:
+
+maksumus = (hind praegu/mitu päeva kasutanud) * kuud * keskmine päevade arv kuus
+53.20 = (2.66/6) * 4 * 30
